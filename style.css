@@ -24,22 +24,29 @@ h1{
       'header header header header header header'
       'menu main main main right right'
       'menu footer footer footer footer footer';
-    gap: 10px;
-    background-color: #2097f8;
-    padding: 15px;
+      gap: 3px;
+    background-color: #0004fd;
+    padding: 5px;
   }
   
   .grid-container > div {
     background-color: rgb(0, 0, 0);
     text-align: center;
-    padding: 20px 0;
+    padding: relative;
     font-size: 30px;
+    border-radius: 8px;
+    border: 2px solid #c4e21b;
+    width:97vw;
+    margin-left: 4px;
   }
   .grid-container > .layout{
     background-color: rgb(0, 0, 0);
     text-align: left;
-    padding: 20px 0;
     font-size: 30px;
+    border-radius: 8px;
+    border: 2px solid #b9d637;
+    padding: 100px 0;
+    
   }
 
   .button {
